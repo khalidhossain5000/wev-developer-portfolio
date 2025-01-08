@@ -215,3 +215,27 @@ main section{
 
 
 /* footer style start here  */
+
+footer{
+    display: flex;
+    padding: 130px 230px;
+}
+
+.footer-column{
+    width: 50%;
+    padding: 90px;
+}
+
+
+footer input[type="text"] ,footer input[type="email"] ,footer textarea{
+padding: 10px 20px;
+border-radius: 5px;
+background-color: white;
+display: block;
+width: 100%;
+border: none;
+margin-bottom: 24px;
+color: #757575;
+font-size: 16px;
+}
+
